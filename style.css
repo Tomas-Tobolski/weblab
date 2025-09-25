@@ -100,10 +100,6 @@ nav{
     border-bottom: black 1px solid;
 }
 
-nav ul{
-
-}
-
 nav ul li{
     list-style: none;
     display: inline-block;
