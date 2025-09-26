@@ -1,3 +1,99 @@
-body{
-    background-color: teal;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #f4f4f9;
+    color: #222;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
+    color: #fff;
+}
+
+nav {
+    background-color: #222;
+    padding: 10px 0;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+}
+nav ul li a:hover {
+    color: #f39c12;
+    border-bottom: 2px solid #f39c12;
+}
+
+main {
+    width: 90%;
+    max-width: 900px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h1, h2, h3 {
+    font-family: "Roboto", sans-serif;
+    color: #2c3e50;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.gallery img {
+    width: 280px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+.highlight {
+    background-color: #fceabb;
+    padding: 5px;
+    border-radius: 5px;
+}
+.text-green {
+    color: green;
+    font-weight: bold;
+}
+.card {
+    background-color: #ecf0f1;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #111;
+    color: #fff;
+    font-size: 14px;
 }
