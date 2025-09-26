@@ -2,7 +2,7 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    background-color: #f4f4f9;
+    background-color: #f4fdfc;
     color: #222;
     margin: 0;
     padding: 0;
@@ -12,12 +12,12 @@ body {
 header {
     text-align: center;
     padding: 20px;
-    background-color: #111;
+    background-color: #006d6f; /* deep teal */
     color: #fff;
 }
 
 nav {
-    background-color: #222;
+    background-color: #008080; /* classic teal */
     padding: 10px 0;
     text-align: center;
 }
@@ -36,24 +36,26 @@ nav ul li a {
     color: #fff;
 }
 nav ul li a:hover {
-    color: #f39c12;
-    border-bottom: 2px solid #f39c12;
+    color: #f1fdfa;
+    border-bottom: 2px solid #20c997; /* lighter teal hover */
 }
 
 main {
     width: 90%;
     max-width: 900px;
     margin: 20px auto;
-    background: #fff;
+    background: #ffffff;
     padding: 20px;
     border-radius: 8px;
+    border: 2px solid #b2dfdb; /* soft teal border */
 }
 
 h1, h2, h3 {
     font-family: "Roboto", sans-serif;
-    color: #2c3e50;
+    color: #004d4d; /* dark teal */
 }
 
+/* Paragraph styling */
 p {
     margin-bottom: 15px;
 }
@@ -68,23 +70,25 @@ p {
     width: 280px;
     border-radius: 10px;
     transition: transform 0.3s ease;
+    border: 3px solid #20c997; /* teal frame */
 }
 .gallery img:hover {
     transform: scale(1.05);
+    border-color: #17a2b8; /* hover teal */
 }
 
 .highlight {
-    background-color: #fceabb;
+    background-color: #e0f7f7; /* pale teal highlight */
     padding: 5px;
     border-radius: 5px;
 }
 .text-green {
-    color: green;
+    color: #008080;
     font-weight: bold;
 }
 .card {
-    background-color: #ecf0f1;
-    border: 1px solid #ccc;
+    background-color: #f1fdfa;
+    border: 1px solid #20c997;
     padding: 15px;
     border-radius: 8px;
     margin-bottom: 15px;
@@ -93,7 +97,7 @@ p {
 footer {
     text-align: center;
     padding: 15px;
-    background-color: #111;
+    background-color: #006d6f;
     color: #fff;
     font-size: 14px;
 }
